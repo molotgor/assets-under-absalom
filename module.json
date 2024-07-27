@@ -1,0 +1,104 @@
+{
+  "id": "assets-for-abomination-under-absalom",
+  "title": "Assets for Abomination Under Absalom",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "requires": [
+      {
+        "id": "abomination-under-absalom",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "LocknKey",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "monks-pf2e-encounter-aftermath",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e-tokens-bestiaries",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e-dailies",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e-toolbelt",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e-item-activations",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e-party-sheet-helper",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e-usage-updater",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "pf2e-modifiers-matter",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "xdy-pf2e-workbench",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "fvtt-pf2e-incapacitation-variants",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "chapters",
+      "label": "chapters",
+      "path": "packs/chapters",
+      "type": "Adventure",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "url": "https://github.com/molotgor/assets-under-absalom",
+  "manifest": "https://raw.githubusercontent.com/molotgor/assets-under-absalom/master/module.json",
+  "download": "https://github.com/molotgor/assets-under-absalomz/archive/refs/heads/master.zip"
+
+}
